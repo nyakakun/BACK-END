@@ -103,7 +103,8 @@ namespace Calc
 
             if (PharseArgs.Count != 3)
             {
-                throw new Exception("Данные не соответствуют формату: [Число] [Операция(+ - * /)] [Число]");
+                throw new Exception("Данные не соответствуют формату: [Число] [Операция(+ - * /)] [Число]" + '\n' +
+                                    "или введите exit для выхода");
             }
             if (!double.TryParse(PharseArgs[0], out double LeftNum))
             {
