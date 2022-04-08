@@ -79,9 +79,6 @@ namespace Calc
                 {
                     switch (c)
                     {
-                        /*case ' ':
-                            //if (Args[^1] != "") Args.Add("");
-                            break;*/
                         case '+':
                         case '-':
                         case '*':
